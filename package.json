@@ -1,0 +1,25 @@
+{
+  "name": "typescript-rxjs-webpack-starter",
+  "version": "1.0.0",
+  "description": "Typescript RxJS Webpack Starter",
+  "main": "index.js",
+  "url": "https://github.com/TohaBY/typescript-rxjs-webpack-starter",
+  "scripts": {
+    "serve": "webpack serve --mode=development --progress",
+    "build": "webpack",
+    "build:prod": "webpack --config webpack.config.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Kavaliou",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "html-webpack-plugin": "^5.3.2",
+    "rxjs": "^7.3.0",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
