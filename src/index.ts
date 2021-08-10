@@ -1,6 +1,6 @@
 import { of, map } from 'rxjs'
 
-const welcome = of('Welcome to Typscript world').pipe(
+const welcome = of('Welcome to TypScript world').pipe(
   map((x) => `${x} powered with RxJS!`)
 )
 
